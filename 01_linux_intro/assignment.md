@@ -4,9 +4,12 @@
 
 
 
+
 まず1行目を普通に実行
 
 `$ echo "This is a very very long command for practice"`
+
+
 
 
 次にCtrl+Pで直前の実行履歴を呼び戻す。
@@ -18,6 +21,8 @@ Ctrl+Wを1回押して「a」を消去
 「yet another」と書き加えて実行
 
 `$ echo "This is yet another very very long command for practice"`
+
+
 
 Ctrl+Pを2回押して1行目を呼び戻す。
 

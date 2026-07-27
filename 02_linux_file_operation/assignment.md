@@ -23,14 +23,14 @@
 
 
 出力：
-`linux_practice:
-data  memo
+`linux_practice:`
+`data  memo`
 
-linux_practice/data:
-sample1.txt  sample2.txt  sample3.txt
+`linux_practice/data:`
+`sample1.txt  sample2.txt  sample3.txt`
 
-linux_practice/memo:
-note1.txt  note2.txt`
+`linux_practice/memo:`
+`note1.txt  note2.txt`
 
 
 主要な利用コマンドの簡単な説明

@@ -44,22 +44,37 @@ ls -R：ls はディレクトリの中身を一覧表示するコマンドであ
 以下に実行したコマンドと出力を示す。
 
 `$ cp linux_practice/data/sample1.txt linux_practice/memo/sample1_backup.txt`
+
 `$ mv linux_practice/data/sample2.txt linux_practice/data/result.txt`
+
 `$ mv linux_practice/data/sample3.txt linux_practice/memo/`
+
 `$ ln -s ../memo/note1.txt linux_practice/data/link_to_note1.txt`
+
 `$ cat linux_practice/data/link_to_note1.txt`
+
 `$ find linux_practice -type f`
+
 `linux_practice/memo/sample3.txt`
+
 `linux_practice/memo/note1.txt`
+
 `linux_practice/memo/note2.txt`
+
 `linux_practice/memo/sample1_backup.txt`
+
 `linux_practice/data/sample1.txt`
+
 `linux_practice/data/result.txt`
+
 `$ find linux_practice -type l`
+
 `linux_practice/data/link_to_note1.txt`
 
 
+
 コピー、移動、名前変更、シンボリックリンクの違いについての簡単な説明を以下に示す。
+
 ・コピー (cp)
 
 ファイルの実体を複製し、別の場所に新しいファイルとして保存する
